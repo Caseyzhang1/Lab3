@@ -247,6 +247,15 @@ ggplot(lab3data, aes(x = Gender, y = SWL)) + geom_violin(aes(fill=Gender)) + sca
 
 # Q2: What you can tell from looking at a violin plot? What you cannot tell? What inferences you can make based on the two violin plots?
 
-The violin gives us a visual of the composite of the Rosenberg
-Self-Esteem and the I can not tell you what individual data points
-constitute the composite variable. Inferences:
+The violin plot gives us a visual of the Rosenberg Self-Esteem (RSE
+plot) and the Satisfaction With Life (SWL plot) frequency distributions,
+mode(s), and ranges. It can not tell you what individual data points
+constitute the distribution, the mean, median, standard deviation,
+standard error, and the number of participants included in the
+distribution. The inferences we can make about these two plots are that
+for the RSE plot, male have two peaks and females have one. This
+suggests that the two most frequently occurring self-esteem level for
+males tend to be higher than that of females, concentrating at the two
+points. For the SWL plot, they have very similar distributions,
+therefore a similar number of women and men have each level of life
+satisfaction.
